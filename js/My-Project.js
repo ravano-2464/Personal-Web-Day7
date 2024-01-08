@@ -94,11 +94,15 @@ function renderMyProject() {
                 <p style="text-align: center;">
                    ${dataMyProject[index].content}
                 </p>
+                <br>
                 <div class="technologies">
                     <label>Technologies:</label>
                     <ul>
                         ${dataMyProject[index].technologies.map((tech) => `<li>${tech}</li>`).join('')}
                     </ul>
+                </div>
+                <div class="card-icons">
+                    ${renderTechImages(dataMyProject[index])}
                 </div>
             </div>
         </div>`;
