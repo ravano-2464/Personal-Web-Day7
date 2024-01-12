@@ -23,7 +23,6 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
 .btn-contact:hover,
 .btn-submit:hover {
     background-color: #333;
@@ -64,31 +63,17 @@ nav ul li .active {
     flex: 50%;
     text-align: end;
     margin-right: 25px;
-    padding: 10px;
-    width: 130px;
-    font-size: 16px;
-    border-radius: 10px;
-    text-decoration: none;
 }
 
 .nav-link a {
-    color: black;
-    white-space: nowrap;
-    display: block;
-    text-decoration: none;
+    color: black; 
 }
 
 .nav-right a {
-    background-color: #f7f7f7;
-    color: #333;
-    padding: 10px;
-    width: 130px;
-    font-size: 16px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid #333;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: black;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
 }
 
 .nav-right a:hover {
@@ -115,6 +100,25 @@ nav ul li {
 
 .nav-left {
     flex: 50%;
+}
+
+.nav-right:hover {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.nav-right a {
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 10px;
+    width: 130px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #barsmenu {
@@ -203,6 +207,22 @@ nav ul li {
 
 .profile-testimonial {
     width: 100%;
+}
+
+.container-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-btn {
+    margin: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
 }
 
 
