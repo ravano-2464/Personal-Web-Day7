@@ -20,6 +20,7 @@
     text-align: center;
     border: 2px solid #333;
     transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
 
 .btn-contact:hover,
@@ -310,6 +311,10 @@ form {
     text-align: center;
 }
 
+.nav-collapse {
+    width: 25%;
+}
+
 #hamburger-button {
     display: none;
 }
@@ -353,6 +358,7 @@ form {
 @media only screen and (max-width: 500px) {
     .nav-collapse {
         display: none;
+        width: 5px;
     }
     
     #hamburger-button {

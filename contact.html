@@ -19,52 +19,49 @@
                 </li>
                 <li class="nav-link nav-collapse">
                     <a href="index.html">
-                        Home
+                        <i class="fa fa-home"></i> Home
                     </a>
                 </li>
                 <li class="nav-link nav-collapse">
                     <a href="My-Project.html">
-                        My Project
-                    </a>
-                </li>
-                <li class="nav-link nav-collapse">
-                    <a href="testimonial.html">
-                        Testimonials
+                        <i class="fa fa-desktop"></i> My Project
                     </a>
                 </li>
             </ul>
             <div style="display: flex; width: 100%; justify-content: end;">
-                <a href="contact.html" class="btn-contact nav-collapse">Contact me</a>
+                <a href="contact.html" class="btn-contact nav-collapse"><i class="fa fa-phone"></i> Contact me</a>
                 <i class="fa-solid fa-bars fa-2x" style="cursor: pointer;" id="hamburger-button" onclick="openHamburger()"></i>
             </div>
         </div>
     </nav>
     <div class="hamburger-nav-container" id="hamburger-nav-container">
-        <a href="index.html">Home</a>
-        <a href="My-Project.html">My Project</a>
-        <a href="testimonial.html">Testimonials</a>
-        <a href="contact.html" class="active">Contact Me</a>
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <a href="My-Project.html"><i class="fa fa-desktop"></i> My Project</a>
+        <a href="contact.html" class="active"><i class="fa fa-phone"></i> Contact Me</a>
     </div>
 
     <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
-        <h1 style="font-family: monospace; font-size: 24px; margin-top: 20px;">GET IN TOUCH</h1>
+        <h1 style="font-family: monospace; font-size: 24px; margin-top: 20px;"><i class="fas fa-hand-pointer"></i> GET IN TOUCH</h1>
         <form id="contactForm" action="#" method="post">
+            <br>
             <div style="display: flex; flex-direction: column; width: 300px;">
-                <label class="label-contact">Name</label>
+                <label class="label-contact"><i class="fas fa-user"></i> Name</label>
                 <input type="text" class="input-contact" name="Name" id="inputName" />
-                <label class="label-contact">Email</label>
+                <label class="label-contact"><i class="fa fa-envelope"></i> Email</label>
                 <input type="text" class="input-contact" name="Email" id="inputEmail" />
-                <label class="label-contact">Phone number</label>
+                <label class="label-contact"><i class="fa fa-phone-square"></i> Phone number</label>
                 <input type="text" class="input-contact" name="Phone" id="inputPhone" />
-                <label class="label-contact">Subject</label>
+                <label class="label-contact"><i class="fas fa-laptop-code"></i> Subject</label>
                 <select class="input-contact" name="Subject" id="inputSubject">
                     <option>Frontend Developer</option>
                     <option>Backend Developer</option>
                     <option>Fullstack Developer</option>
                 </select>
-                <label class="label-contact">Your message</label>
+                <label class="label-contact"><i class="fa fa-commenting"></i> Your message</label>
                 <textarea class="input-contact" name="Message" id="inputMessage"></textarea>
-                <input type="button" value="Submit" class="btn-submit" onclick="submitData()" />
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn-submit" onclick="submitData()"><i class="fa fa-paper-plane"></i> Submit</button>
+                </div> 
             </div>
         </form>
     </div>
