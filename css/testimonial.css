@@ -80,7 +80,7 @@ body {
 }
 
 .testimonial img {
-    width: 15%; 
+    width: 50%; 
     height: 75%;
     border-radius: 8px;
     object-fit: cover;
