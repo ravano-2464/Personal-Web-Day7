@@ -9,25 +9,18 @@ body {
     margin: 0;
 }
 
-nav {
-    background-color: #ebeaea;
-    display: flex;
-    align-items: center;
-    height: 10vh;
+.nav-link {
+    font-size: 25px;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
+.nav-link a {
+    color: black;
+    white-space: nowrap;
+    display: block;
+    text-decoration: none;
 }
 
-nav ul li {
-    margin-right: 25px;
-    font-size: 20px;
-}
-
-nav ul li .active {
+.nav-link a:hover {
     color: orangered;
 }
 
