@@ -88,8 +88,10 @@ body {
 }
 
 .testimonial img {
-    height: auto;
-    object-fit: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .quote {
