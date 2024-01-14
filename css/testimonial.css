@@ -88,7 +88,7 @@ body {
 }
 
 .testimonial img {
-    height: 200px;
+    height: auto;
     object-fit: cover;
 }
 
