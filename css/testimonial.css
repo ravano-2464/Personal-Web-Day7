@@ -156,7 +156,7 @@ nav ul li {
 
 .hamburger-nav-container .hamburger-active {
     text-decoration: none;
-    color: black;
+    color: #fff;
     background-color: black;
     display: flex;
     align-items: center;
