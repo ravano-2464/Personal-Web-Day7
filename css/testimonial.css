@@ -3,9 +3,6 @@
 * {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -51,6 +48,10 @@ nav ul li {
 }
 
 nav ul li .active {
+    color: black;
+}
+
+.nav-link a:hover {
     color: orangered;
 }
 
@@ -64,26 +65,20 @@ nav ul li .active {
     margin-right: 25px;
 }
 
+.nav-link a {
+    color: black; 
+}
+
 .nav-right a {
-    background-color: orangered;
+    background-color: black;
     padding: 8px 20px;
     color: white;
     border-radius: 5px;
 }
 
-.nav-link {
-    font-size: 25px;
-}
-
-.nav-link a {
-    color: black;
-    white-space: nowrap;
-    display: block;
-    text-decoration: none;
-}
-
-.nav-link a:hover {
-    color: orangered;
+.nav-right a:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 nav {
@@ -107,17 +102,23 @@ nav ul li {
     flex: 50%;
 }
 
-.nav-right {
+.nav-right:hover {
     flex: 50%;
     text-align: end;
     margin-right: 25px;
 }
 
 .nav-right a {
-    background-color: orangered;
-    padding: 8px 20px;
-    color: white;
-    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 10px;
+    width: 130px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #barsmenu {
@@ -125,10 +126,6 @@ nav ul li {
 }
 
 .hamburger {
-    display: none;
-}
-
-#hamburger-button {
     display: none;
 }
 
@@ -153,10 +150,14 @@ nav ul li {
     border: 1px solid #fff;
 }
 
+.active:hover {
+    color: orangered; 
+}
+
 .hamburger-nav-container .hamburger-active {
     text-decoration: none;
     color: #fff;
-    background-color: orangered;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,33 +209,15 @@ nav ul li {
     width: 100%;
 }
 
-
 @media only screen and (max-width: 900px) {
     .testimonial {
         width: 40%;
-    }
-    .profile-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .right {
-        margin-top: 20px;
     }
 }
 
 @media only screen and (max-width: 700px) {
     .testimonial {
         width: 100%;
-    }
-   
-    .profile-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .right {
-        margin-top: 20px;
     }
 }
 
@@ -243,13 +226,6 @@ nav ul li {
         display: block;
     }
 
-    #hamburger-button {
-        display: block;
-    }
-
-    .nav-collapse {
-        display: none;
-    }
 
     .item-collapse {
         display: none;
@@ -261,11 +237,5 @@ nav ul li {
         margin-right: 30px;
         align-items: center;
         justify-content: flex-end;
-    }
-
-    .hamburger-nav-container {
-        font-size: 23px;
-        display: none;
-        flex-direction: column;
     }
 }

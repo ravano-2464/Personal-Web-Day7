@@ -45,4 +45,4 @@ for(let index = 0; index < testimonial.length; index++) {
     testimonialHTML += testimonial[index].html()
 }
 
-document.getElementById("testimonial").innerHTML = testimonialHTML
+document.getElementById("testimonials").innerHTML = testimonialHTML
