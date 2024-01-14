@@ -72,17 +72,25 @@ body {
 }
 
 .testimonial {
-    width: 100%;
-    margin: 0px 0 30px 0;
+    width: 25%;
+    margin: 0px 15px 30px 15px;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
 }
 
 .testimonial img {
-    width: 50%; 
-    height: 400px;
-    border-radius: 8px;
+    width: 25%;
+    margin: 0px 15px 30px 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 200px;
     object-fit: cover;
 }
 
