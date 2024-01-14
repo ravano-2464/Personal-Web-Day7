@@ -315,6 +315,8 @@ form {
 }
 
 .hamburger-nav-container {
+    font-size: 23px;
+    list-style-type: none;
     display: none;
 }
 
@@ -327,7 +329,14 @@ form {
 }
 
 .hamburger-nav-container .active {
-    background-color: #ff4500;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #fff;
 }
 
 @media only screen and (max-width: 600px) {
