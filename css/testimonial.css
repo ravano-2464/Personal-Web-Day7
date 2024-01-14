@@ -44,57 +44,25 @@ body {
     color: orangered;
 }
 
-.nav-left {
-    flex: 50%;
-}
-
-.nav-right {
-    flex: 50%;
-    text-align: end;
-    margin-right: 25px;
-}
-
-.nav-right a {
-    background-color: orangered;
-    padding: 8px 20px;
-    color: white;
-    border-radius: 5px;
-}
-
-nav {
-    background-color: #ebeaea;
+.profile-container {
     display: flex;
-    align-items: center;
-    height: 10vh;
+    flex-direction: row;
+    margin: 90px auto;
+    padding: 20px;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
+.left {
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 15px;
+    flex: 1;
+    padding: 20px;
 }
 
-nav ul li {
-    margin-right: 25px;
+.right {
+    flex: 2;
+    margin-left: 15px;
 }
-
-.nav-left {
-    flex: 50%;
-}
-
-.nav-right {
-    flex: 50%;
-    text-align: end;
-    margin-right: 25px;
-}
-
-.nav-right a {
-    background-color: orangered;
-    padding: 8px 20px;
-    color: white;
-    border-radius: 5px;
-}
-
 
 .container {
     padding: 50px 0;
@@ -134,10 +102,6 @@ nav ul li {
 .author {
     font-weight: bold;
     text-align: right;
-}
-
-.profile-testimonial {
-    width: 100%;
 }
 
 #hamburger-button {
